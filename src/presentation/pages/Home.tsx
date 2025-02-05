@@ -26,7 +26,7 @@ export const HomeScreen = () => {
             <StatusBar barStyle="light-content" />
             <View style={styles.body}>
                 <View style={styles.user}>
-                    <Image style={styles.avatar} source={require("../../../assets/icon.png")} />
+                    <Image style={styles.avatar} source={require("../../../assets/icon-v1.png")} />
                     <View style={styles.userNav}>
                         <Text style={styles.username}>@username</Text>
                         <View style={styles.streak}>
